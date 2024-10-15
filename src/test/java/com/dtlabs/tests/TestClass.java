@@ -21,7 +21,7 @@ public class TestClass {
     }
 
     @DataProvider(name = "dbDataProvider")
-    public Object[][] dbDataProvider() throws SQLException, SQLException {
+    public Object[][] dbDataProvider() throws SQLException {
         return DatabaseUtils.getDBData("SELECT * FROM tablename");
     }
 

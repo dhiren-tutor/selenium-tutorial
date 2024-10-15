@@ -1,15 +1,10 @@
 package com.dtlabs.tests;
 
 import com.dtlabs.core.BaseTest;
-import com.dtlabs.core.PageDriver;
 import com.dtlabs.pages.LoginPage;
 import com.dtlabs.pages.ProductsPage;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
-
-import java.time.Duration;
 
 public class LoginTest extends BaseTest {
 
